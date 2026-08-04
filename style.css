@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+
+.registerBtn{
+   
+padding-top: 9.74px;
+padding-right: 22.27px;
+padding-bottom: 9.74px;
+padding-left: 22.27px;
+border-radius: 2.78px;
+background-color: #4CAF4F;
+}
+
+.container{
+    margin-top: 5px;
+}
+
+.header a{
+    margin-left: 5px;
+    display: flex;
+}
+
+/* .header div, ul, li, a, button, img{
+    display:flex;
+} */
