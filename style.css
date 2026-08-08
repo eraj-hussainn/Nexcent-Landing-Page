@@ -14,15 +14,12 @@ border-radius: 2.78px;
 background-color: #4CAF4F;
 }
 
-.container{
-    margin-top: 5px;
-}
-
+/* 
 .header a{
     margin-left: 5px;
     display: flex;
-}
-
-/* .header div, ul, li, a, button, img{
-    display:flex;
 } */
+
+.fontSize{
+    font-size: 11.14px;
+}
