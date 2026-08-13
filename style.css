@@ -1,25 +1,299 @@
-*{
-    margin: 0;
-    padding: 0;
-box-sizing: border-box;
+/* General */
+
+body {
+    color: #4d4d4d;
 }
 
-.registerBtn{
-   
-padding-top: 9.74px;
-padding-right: 22.27px;
-padding-bottom: 9.74px;
-padding-left: 22.27px;
-border-radius: 2.78px;
-background-color: #4CAF4F;
+img {
+    max-width: 100%;
 }
 
-/* 
-.header a{
-    margin-left: 5px;
-    display: flex;
-} */
+.bg-light-custom {
+    background-color: #f5f7fa;
+}
 
-.fontSize{
+.green-text {
+    color: #4caf4f;
+}
+
+
+/* Navbar */
+
+.navbar-brand {
+    color: #263238;
+}
+
+.navbar-brand img {
+    width: 28px;
+    margin-right: 5px;
+}
+
+.nav-link {
+    color: #4d4d4d;
+    font-size: 14px;
+}
+
+.nav-link:hover {
+    color: #4caf4f;
+}
+
+.nav-link.active {
+    color: #4caf4f;
+}
+
+
+/* Buttons */
+
+.register-btn {
+    background-color: #4caf4f;
+    padding: 9.74px 22.27px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.register-btn:hover {
+    background-color: #409042;
+    color: white;
+}
+
+.register-btn img {
+    vertical-align: middle;
+}
+
+
+/* Hero */
+
+.hero-title {
+    font-size: 44.55px;
+    font-weight: 600;
+}
+
+.hero-content p {
+    font-size: 14px;
+}
+
+
+/* Clients */
+
+.section-title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.small-text {
     font-size: 11.14px;
+}
+
+.client-logo {
+    max-width: 45px;
+    max-height: 45px;
+}
+
+
+/* Community */
+
+.community-card {
+    width: 208px;
+    min-height: 190px;
+    padding: 16.71px 22.27px;
+    border-radius: 5.57px;
+    background-color: white;
+    box-shadow: 0 1.39px 2.78px #abbed133;
+    font-size: 9.74px;
+}
+
+.community-card img {
+    width: 45px;
+}
+
+.community-card h5 {
+    font-size: 15px;
+}
+
+.community-card p {
+    line-height: 1.5;
+}
+
+
+/* Pixelgrade */
+
+.content-title {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.content-para {
+    width: 75%;
+    line-height: 1.6;
+}
+
+
+/* Statistics */
+
+.stats-title {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.stat-icon {
+    width: 30px;
+}
+
+
+/* Demo */
+
+.demo-section {
+    padding: 40px 0;
+}
+
+.demo-section h1 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+
+/* Footer */
+
+.footer-area {
+    background-color: #263238;
+    color: #f5f7fa;
+    font-size: 10px;
+}
+
+.footer-area h5 {
+    font-size: 15px;
+}
+
+.footer-area p,
+.footer-list li {
+    color: #f5f7fa;
+}
+
+.footer-area h2 img {
+    width: 28px;
+    margin-right: 5px;
+}
+
+.footer-list {
+    line-height: 1.9;
+}
+
+.footer-area .mt-4 img {
+    width: 24px;
+    margin-right: 7px;
+}
+
+
+/* Email */
+
+.email-wrapper {
+    width: 75%;
+}
+
+.email-input {
+    background-color: #515b60;
+    border: none;
+    color: white;
+    font-size: 10px;
+    padding-right: 35px;
+}
+
+.email-input:focus {
+    background-color: #515b60;
+    color: white;
+    box-shadow: none;
+}
+
+.email-input::placeholder {
+    color: white;
+    font-size: 9px;
+}
+
+.email-icon {
+    width: 14px;
+    right: 9px;
+    top: 10px;
+}
+
+
+/* Tablet */
+
+@media (max-width: 991px) {
+
+    .hero-title {
+        font-size: 38px;
+    }
+
+    .content-title {
+        font-size: 26px;
+    }
+
+    .content-para {
+        width: 90%;
+    }
+
+    .email-wrapper {
+        width: 100%;
+    }
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 767px) {
+
+    .hero-title {
+        font-size: 34px;
+    }
+
+    .hero-title,
+    .hero-content {
+        text-align: center;
+    }
+
+    .content-title {
+        font-size: 24px;
+    }
+
+    .content-para {
+        width: 100%;
+    }
+
+    .stats-title {
+        text-align: center;
+    }
+
+    .statistics .small-text {
+        text-align: center;
+    }
+
+    .community-card {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+
+/* Small mobile */
+
+@media (max-width: 576px) {
+
+    .hero-title {
+        font-size: 30px;
+    }
+
+    .section-title {
+        font-size: 21px;
+    }
+
+    .demo-section h1 {
+        font-size: 27px;
+    }
+
+    .client-logo {
+        max-width: 35px;
+    }
+
 }
